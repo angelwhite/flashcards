@@ -44,13 +44,12 @@
             }
 
             @media (max-width: 768px) {
-              .wrap {
-                width: auto;
-                margin: 0 20px;
-
-              }
+                .wrap {
+                    width: auto; 
+                    box-sizing: border-box;
+                    margin: 0 20px;
+                }
             }
-
             h1 {
                 font-family: 'futura_roundbold' !important; 
                 font-size: 30px;
@@ -200,7 +199,7 @@
                     { english: "Convenience Store", japanese: "Konbini", pronunciation: "", kanji: "" },
                     { english: "Where is the 7-Eleven?", japanese: "Sebun Irebun wa doko desu ka?", pronunciation: "", kanji: "" },
                     { english: "Water", japanese: "Mizu", pronunciation: "", kanji: "" },
-                    { english: "_(food)_, please.", japanese: "_(food)_ kudasai.", pronunciation: "", kanji: "" },
+                    { english: "_(food)_, please.", japanese: "_(food)_ onegaishimasu.", pronunciation: "", kanji: "" },
                     { english: "May I have some water, please?", japanese: "Mizu o itadakemasu ka?", pronunciation: "", kanji: "" },
                     { english: "Tea", japanese: "Ocha", pronunciation: "", kanji: "" },
                     { english: "Rice", japanese: "Gohan", pronunciation: "", kanji: "" },
@@ -217,7 +216,9 @@
                     { english: "This one, please.", japanese: "Kore onegaishimasu.", pronunciation: "", kanji: "" },
                     { english: "I'd like _(food)_, please.", japanese: "_(food)_ o onegaishimasu.", pronunciation: "", kanji: "" },  
                     { english: "Yes", japanese: "Hai", pronunciation: "hi", kanji: "はい" },
-                    { english: "No", japanese: "Iie", pronunciation: "", kanji: "いいえ" }
+                    { english: "No", japanese: "Iie", pronunciation: "", kanji: "いいえ" },
+                    { english: "Can I film a video here?", japanese: "Kokode video wo totte iidesu ka?", pronunciation: "", kanji: "いいえ" },
+                    { english: "Konyu", japanese: "Purchase", pronunciation: "", kanji: "いいえ" }
                 ];
 
                 var randomIndex = Math.floor(Math.random() * phrases.length);
